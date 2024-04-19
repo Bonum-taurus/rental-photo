@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rental-photo/static/css/main.5dbad99f.css",
+    "main.js": "/rental-photo/static/js/main.fa69d22a.js",
+    "index.html": "/rental-photo/index.html",
+    "main.5dbad99f.css.map": "/rental-photo/static/css/main.5dbad99f.css.map",
+    "main.fa69d22a.js.map": "/rental-photo/static/js/main.fa69d22a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5dbad99f.css",
+    "static/js/main.fa69d22a.js"
+  ]
+}
