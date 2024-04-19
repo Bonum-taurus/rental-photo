@@ -1,13 +1,29 @@
 {
   "files": {
-    "main.css": "/rental-photo/static/css/main.5dbad99f.css",
-    "main.js": "/rental-photo/static/js/main.fa69d22a.js",
+    "main.css": "/rental-photo/static/css/main.08e5f2b3.css",
+    "main.js": "/rental-photo/static/js/main.85688329.js",
+    "static/media/bg-header.png": "/rental-photo/static/media/bg-header.5d8ca766e9f22d74d7fb.png",
+    "static/media/photo-1.png": "/rental-photo/static/media/photo-1.71d1fa19209c70a97daa.png",
+    "static/media/photo-2.png": "/rental-photo/static/media/photo-2.ebe48c6a15b4aa927549.png",
+    "static/media/photo-3.png": "/rental-photo/static/media/photo-3.9525be1e8e174715cb42.png",
+    "static/media/logo.svg": "/rental-photo/static/media/logo.73db0ed00ffec71820e0c79e60f79ca8.svg",
+    "static/media/pay-card.svg": "/rental-photo/static/media/pay-card.79a0279bc66871418e3c.svg",
+    "static/media/delivery.svg": "/rental-photo/static/media/delivery.6f82baea3ffff5697ef2.svg",
+    "static/media/user.svg": "/rental-photo/static/media/user.aff3f360a0de05550a2e.svg",
+    "static/media/choice.svg": "/rental-photo/static/media/choice.e0c5d4bef564fc2b6f39.svg",
+    "static/media/shopping-cart.svg": "/rental-photo/static/media/shopping-cart.1c7ff42a85d7d9944e7d.svg",
+    "static/media/location.svg": "/rental-photo/static/media/location.2ae2ca4001d47be78379.svg",
+    "static/media/star.svg": "/rental-photo/static/media/star.623710705c94e0447d0c.svg",
     "index.html": "/rental-photo/index.html",
-    "main.5dbad99f.css.map": "/rental-photo/static/css/main.5dbad99f.css.map",
-    "main.fa69d22a.js.map": "/rental-photo/static/js/main.fa69d22a.js.map"
+    "static/media/clock.svg": "/rental-photo/static/media/clock.40f85557e31080a07a07.svg",
+    "static/media/cart.svg": "/rental-photo/static/media/cart.131a9164939dc3ab2f72.svg",
+    "static/media/search.svg": "/rental-photo/static/media/search.4d53ac17e02c54f4f7e9.svg",
+    "static/media/compare.svg": "/rental-photo/static/media/compare.52982aa3f06d15cef45a.svg",
+    "main.08e5f2b3.css.map": "/rental-photo/static/css/main.08e5f2b3.css.map",
+    "main.85688329.js.map": "/rental-photo/static/js/main.85688329.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dbad99f.css",
-    "static/js/main.fa69d22a.js"
+    "static/css/main.08e5f2b3.css",
+    "static/js/main.85688329.js"
   ]
 }
