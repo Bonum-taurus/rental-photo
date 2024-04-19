@@ -1,6 +1,6 @@
 {
-  "name": "template-project",
-  "homepage": "https://bonum-taurus.github.io/template-project/",
+  "name": "rental-photo",
+  "homepage": "https://bonum-taurus.github.io/rental-photo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
