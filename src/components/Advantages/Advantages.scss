@@ -1,0 +1,53 @@
+.advantages {
+  height: 130px;
+  background-color: #f5f5f5;
+
+  padding: 48px 135px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__icon {
+    margin-right: 14px;
+
+    width: 32px;
+    height: 32px;
+
+    &--choice {
+      background-image: url(../../img/icons/features/choice.svg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    &--clock {
+      background-image: url(../../img/icons/features/clock.svg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    &--location {
+      background-image: url(../../img/icons/features/location.svg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    &--delivery {
+      background-image: url(../../img/icons/features/delivery.svg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    &--pay-card {
+      background-image: url(../../img/icons/features/pay-card.svg);
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}

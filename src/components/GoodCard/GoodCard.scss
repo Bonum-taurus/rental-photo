@@ -1,0 +1,128 @@
+.card {
+  border: 1px solid #efefef;
+
+  padding: 30px 0 20px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../../img/icons/nav/star.svg);
+
+    position: absolute;
+    right: 20px;
+    top: 70px;
+  }
+
+  &::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../../img/icons/nav/compare.svg);
+    background-repeat: no-repeat;
+
+    position: absolute;
+    right: 20px;
+    top: 30px;
+  }
+
+  &__good-photo {
+    width: 210px;
+    height: 140px;
+
+    border: 2px dashed #efefef;
+
+    margin-bottom: 25px;
+
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__name {
+    font-weight: 700;
+
+    margin-bottom: 10px;
+  }
+
+  &__brand {
+    color: #75758A;
+
+    margin-bottom: 20px;
+  }
+
+  &__prices {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+  }
+
+  &__price {
+    border: 1px solid #efefef;
+
+    padding: 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 25%;
+
+    color: #75758A;
+  }
+
+  &__price-number {
+    font-weight: 700;
+    margin-bottom: 5px;
+
+    color: #000;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__button {
+    width: 140px;
+    height: 40px;
+
+    cursor: pointer;
+
+    background-color: #fff;
+
+    border-radius: 100px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.15);
+
+    color: #000;
+    font-weight: 700;
+
+    &--card {
+      background: linear-gradient(180.00deg, rgb(142, 233, 2),rgb(79, 156, 44) 100%);
+      color: #fff;
+
+      position: relative;
+
+      &::before {
+        content: '';
+        width: 16px;
+        height: 16px;
+        background-image: url(../../img/icons/goods/cart.svg);
+
+        display: inline-block;
+        margin-right: 10px;
+
+        transform: translateY(15%);
+      }
+    }
+  }
+}
