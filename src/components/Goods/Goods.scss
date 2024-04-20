@@ -33,7 +33,7 @@
   }
 
   &__cards-box {
-    width: 1150px;
+    max-width: 1150px;
     margin: 0 auto;
 
     @media (max-width: 480px) {
@@ -44,6 +44,10 @@
 
 .swiper {
   padding: 0 30px !important;
+
+  @media (max-width: 480px) {
+    padding: 0 !important;
+  }
 }
 
 .swiper-button-prev {
