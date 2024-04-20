@@ -7,12 +7,10 @@ import './HomePage.scss';
 export const HomePage = () => {
   return (
     <div className="home-page">
-      <div className="home-page__conteiner">
-        <Header/>
-        <Advantages/>
-        <Goods/>
-        <Search/>
-      </div>
+      <Header />
+      <Advantages />
+      <Goods />
+      <Search />
     </div>
   )
 }

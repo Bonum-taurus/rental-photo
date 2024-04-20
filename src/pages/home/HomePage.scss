@@ -1,11 +1,8 @@
 .home-page {
-  &__conteiner {
-    width: 1380px;
-    margin: 0 auto;
+  width: 1380px;
+  margin: 0 auto;
 
-    @media (max-width: 480px) {
-      max-width: 480px;
-      margin: 0 auto;
-    }
+  @media (max-width: 480px) {
+    max-width: 480px;
   }
 }
