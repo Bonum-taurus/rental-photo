@@ -8,10 +8,35 @@
   justify-content: space-between;
   align-items: center;
 
+  @media (max-width: 480px) {
+    background-color: #fff;
+
+    height: max-content;
+
+    flex-wrap: wrap;
+    gap: 20px;
+
+    padding: 20px;
+  }
+
   &__item {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 480px) {
+      height: 160px;
+      width: calc(50% - 10px);
+
+      background-color: #f5f5f5;
+
+      flex-direction: column;
+      justify-content: start;
+
+      padding: 30px 20px 0px;
+
+      text-align: center;
+    }
   }
 
   &__icon {
@@ -19,6 +44,10 @@
 
     width: 32px;
     height: 32px;
+
+    @media (max-width: 480px) {
+      margin-bottom: 15px;
+    }
 
     &--choice {
       background-image: url(../../img/icons/features/choice.svg);

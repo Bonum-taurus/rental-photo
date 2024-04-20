@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import './Header.scss';
 
 import logo from '../../img/logo.svg';
+import logoMobile from '../../img/logo-mobile.png';
 
 export const Header = () => {
   return (
@@ -56,15 +57,35 @@ export const Header = () => {
         </ul>
       </header>
 
+      <header className="header__mobile nav-mobile">
+        <ul className="nav-mobile__indicators">
+          <li className="nav-mobile__star"></li>
+          <li className="nav-mobile__compare"></li>
+          <li className="nav-mobile__cart"></li>
+        </ul>
+
+        <Link to="/" className="nav-mobile__logo">
+          <img src={logoMobile} alt="logo" />
+        </Link>
+
+        <nav className="nav-mobile__menu">
+          <li className="nav-mobile__item nav-mobile__item--search"></li>
+          <li className="nav-mobile__item nav-mobile__item--lock"></li>
+          <li className="nav-mobile__item nav-mobile__item--burger"></li>
+        </nav>
+      </header>
+
       <header className="header-bg">
         <div className="header-bg__circle"></div>
 
         <h1 className="header-bg__title">
           <span className="header-bg__title-part">
-            <span className="header-bg__rental-word">аренда</span>
-            <span>фото</span>
+            <span className="header-bg__rental-word">Аренда</span>
+            <span className="header-bg__photo-word">фото</span>
           </span>
-          <span className="header-bg__title-part">и видео</span>
+          <span className="header-bg__title-part header-bg__title-part--video">
+            и видео
+          </span>
           <span className="header-bg__title-part">оборудования</span>
         </h1>
       </header>

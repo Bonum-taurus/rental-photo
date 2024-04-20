@@ -1,13 +1,25 @@
 .goods {
   padding-top: 100px;
 
+  @media (max-width: 480px) {
+    padding-top: 30px;
+  }
+
   &--margin-bottom {
     margin-bottom: 100px;
+
+    @media (max-width: 480px) {
+      margin-bottom: 50px;
+    }
   }
 
   &__title-first-word {
    color: #60b021;
    margin-right: 10px;
+
+   @media (max-width: 480px) {
+     color: #000;
+   }
   }
 
   &__title {
@@ -23,6 +35,10 @@
   &__cards-box {
     width: 1150px;
     margin: 0 auto;
+
+    @media (max-width: 480px) {
+      max-width: 480px;
+    }
   }
 }
 

@@ -29,7 +29,8 @@ export const Goods = () => {
           navigation={flag}
           loop={flag}
           spaceBetween={30}
-          slidesPerView={3}
+          slidesPerView={1}
+          breakpoints={{ 480: { slidesPerView: 3 } }}
         >
           <SwiperSlide>
             <GoodCard photo={photoGood_1} />
