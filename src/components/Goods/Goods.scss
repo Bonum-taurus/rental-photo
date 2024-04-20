@@ -36,6 +36,14 @@
     max-width: 1150px;
     margin: 0 auto;
 
+    @media (max-width: 1023.8px) {
+      max-width: 880px;
+    }
+
+    @media (max-width: 767.8px) {
+      max-width: 480px;
+    }
+
     @media (max-width: 480px) {
       max-width: 480px;
     }

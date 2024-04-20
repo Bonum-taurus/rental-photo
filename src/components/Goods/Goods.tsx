@@ -30,7 +30,10 @@ export const Goods = () => {
           loop={flag}
           spaceBetween={30}
           slidesPerView={1}
-          breakpoints={{ 480: { slidesPerView: 3 } }}
+          breakpoints={{ 
+            768: { slidesPerView: 2 }, 
+            1024: { slidesPerView: 3 }
+          }}
         >
           <SwiperSlide>
             <GoodCard photo={photoGood_1} />
